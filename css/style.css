@@ -136,3 +136,30 @@ footer {
         font-weight: bold;
         margin: 0.5rem 0;
     }
+.about {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+    .about h2, .about h3 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .about p {
+        text-align: justify;
+        margin-bottom: 1rem;
+        line-height: 1.6;
+    }
+
+.contacts {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+    .contacts li {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
