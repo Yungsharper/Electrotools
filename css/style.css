@@ -16,11 +16,7 @@ header {
     font-size: 1.8rem;
 }
 
-.brand-name {
-    font-style: italic;
-    font-weight: normal;
-    margin-left: 0.5rem;
-}
+
 
 nav ul {
     list-style: none;
@@ -105,3 +101,38 @@ footer {
         gap: 0.5rem;
     }
 }
+.products {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.product-card {
+    border: 1px solid #fdd835;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fffde7;
+    text-align: center;
+}
+
+    .product-card img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+        border-radius: 4px;
+    }
+
+    .product-card h3 {
+        margin: 0.5rem 0;
+    }
+
+    .product-card p {
+        font-weight: bold;
+        margin: 0.5rem 0;
+    }
