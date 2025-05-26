@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #fdd835;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.logo-bar h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.brand-name {
+    font-style: italic;
+    font-weight: normal;
+    margin-left: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+}
+
+
+.hero h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.2rem;
+    background-color: #fdd835;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    text-align: center;
+}
+
+.feature {
+    background-color: #fffde7;
+    border: 1px solid #fdd835;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+    .feature img.icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 0.5rem;
+    }
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #fdd835;
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 1.4rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
