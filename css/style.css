@@ -225,3 +225,22 @@ footer {
     font-weight: bold;
     text-align: right;
 }
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fffde7;
+}
+
+    .product-card img {
+        max-width: 100%;
+        height: auto;
+    }
