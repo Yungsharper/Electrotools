@@ -8,7 +8,20 @@
 ![Alt текст](screenshots/1.png)
 
 - Каталог товарів — `products.html`: список інструментів у форматі Grid.
+
+![Alt текст](screenshots/2.png)
+![Alt текст](screenshots/3.png)
+![Alt текст](screenshots/5.png)
+![Alt текст](screenshots/6.png)
+![Alt текст](screenshots/7.png)
+
+
 - Про нас — `about.html`: загальна інформація, контакти.
+
+
+![Alt текст](screenshots/4.png)
+
+
 
 Особливості
 
@@ -18,6 +31,11 @@
 - HTML + CSS без сторонніх бібліотек
 - Структурований, чистий код
 - Репозиторій ініціалізовано з однією гілкою `main`
+- PHP — отримання та фільтрація товарів з бази даних
+- MySQL — зберігання товарів у таблиці `products`, фільтрація за категорією та ціною
+
+![Alt текст](screenshots/8.png)
+
 
 
 
